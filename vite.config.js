@@ -5,9 +5,4 @@ import UnoCSS from 'unocss/vite';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), UnoCSS()],
-  base: '/react-pages-test/',
-  build: {
-    outDir: './docs',
-    emptyOutDir: true, // also necessary
-  }
 });
