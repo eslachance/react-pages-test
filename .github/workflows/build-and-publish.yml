@@ -1,7 +1,7 @@
 name: build-and-publish
 on: push
 jobs:
-  build-publish:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
